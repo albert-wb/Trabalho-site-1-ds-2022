@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+} 
+
+body {
+    font-size: 100%;
+    background-image: url("fundos/subway.gif") ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 0.4px solid #fff2e7;
+    background: #ffffff10;
+    border: 2px solid #ffffff10;
+    backdrop-filter: blur(10px);
+}
+
+.cabecalho-logo {
+    height: 10vh; /*10vh~=72px*/
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.item {
+    font-family: 'VT323', monospace;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.item:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.principal {
+    border-top: 0.4px solid #5c0368;
+    margin-bottom: 48px;
+}
+.principal1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.principal1-tittle {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7;
+}
+
+.principal1-subtittle {
+    font-family: 'VT323', monospace;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+}
+
+.botao {
+    background-color: #6d2d9760;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'VT323', monospace;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+}
+
+.botao:hover {
+    background-color: rgba(78, 3, 94, 0.53);
+}
+
+.suzybot {
+    right: 430px;
+}
+
+.principal2 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    gap: 10px; /*era 24px*/
+    color: #fff2e7;
+    background: linear-gradient(89.41deg, rgba(47, 35, 37, 0.03324) 15.4%, rgba(71, 63, 166, 0.17122) 66.65%);
+    border: 2px solid #ffffff10;
+    backdrop-filter: blur(10px);
+}
+
+
+.principal2-pergunta {
+    border-top: 0.4px solid #5c0368;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2EF;
+    margin-bottom: 16px;
+}
+
+.paragrafos {
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #5c0368;
+}
+
+.rodape-img {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.manha, .tarde {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 920px;
+    opacity: 0.8;
+}
+
+.spotify {
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 600px;
+    margin-bottom: 50px;
+    margin-top: 160px;
+}
+
+.horarios {
+    border-top: 0.4px solid #5c0368;
+}
+
+.principalt {
+    border-top: 0.4px solid #5c0368;
+    margin-bottom: 48px;
+}
+
+.principal-tarefas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 48px auto;
+    max-width: 1200px;
+    height: 500px;
+    border-radius: 10px;
+    gap: 24px;
+    color: #fff2e7;
+    
+}
+
+.conteudo-tarefas, .turma-a-conteudo , .turma-b-conteudo {
+    
+    flex-direction: column;
+    gap: 32px;
+    background-color: #44444440;
+    border-radius: 5px;
+    border-color: #ecd6c4;
+    padding: 20px;
+}
+
+.titulo-tarefas {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #fff2e7;
+}
+
+.shine{
+    background-image: url("fundos/shine.gif") ;
+    transition: all 0.25s ease-in-out;
+}
+.tv{
+    background-image: url("fundos/tv.gif") ;
+    transition: all 0.25s ease-in-out;
+}
+.train{
+    background-image: url("fundos/train.gif") ;
+    transition: all 0.25s ease-in-out;
+}
+.subway{
+    background-image: url("fundos/subway.gif") ;
+    transition: all 0.25s ease-in-out;
+}
+.mine{
+    background-image: url("fundos/mine.gif") ;
+    transition: all 0.25s ease-in-out;
+}
+.sal{
+    background-image: url("fundos/sal.gif") ;
+    transition: all 0.25s ease-in-out;
+}
+
+/* div.container-botao */
+
+.altfundo {
+    border-top: 0.4px solid #5c0368;
+}
+
+.position {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 48px auto;
+}
+
+.botaot {
+    background-color: #6d2d9760;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'VT323', monospace;
+    font-weight: 400;
+    font-size: 32px;
+    color: #ecd6c4;
+    
+}
+
+.botaot:hover {
+    background-color: rgba(78, 3, 94, 0.53);
+}
+
+
+.caixa-one {
+    position: absolute;
+    width: 1515px;
+    height: 159px;
+    left: 202px;
+    top: 197px;
+
+    background: linear-gradient(90.39deg, rgba(255, 255, 255, 0.03) -19.49%, rgba(133, 63, 166, 0.25683) 5.28%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
